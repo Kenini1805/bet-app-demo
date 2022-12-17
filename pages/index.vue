@@ -272,7 +272,7 @@ hr {
 }
 .bet {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: #fbf9f6;
   background-color: rgba(34, 135, 215, 255);
   cursor: pointer;
@@ -303,12 +303,12 @@ hr {
 .dollar {
   margin: auto;
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   color: #fbf9f6;
   background-color: #1b2234;
 }
 .defuse-at-number {
-  font-size: 25px;
+  font-size: 20px;
   color: #fbf9f6;
 }
 .chip-coin {
@@ -334,7 +334,7 @@ input {
   justify-content: center;
 }
 .defuse-body {
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 @media screen and (max-width: 480px) {
   .box {
@@ -362,6 +362,9 @@ input {
   .hr-defuse,
   .chip-coin-defuse {
     display: none;
+  }
+  .bet span {
+    padding: 10px 0px 10px 0px;
   }
 }
 </style>
